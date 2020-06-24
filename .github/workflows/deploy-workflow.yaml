@@ -20,6 +20,16 @@ jobs:
       - name: List
         run: ls -Rl docs/
 
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "update site"
+          git commit -m "Updated site" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.TOKEN }}
         #      - name: Deploy
         #uses: peaceiris/actions-gh-pages@v3
         #with:
