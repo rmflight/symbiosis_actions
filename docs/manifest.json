@@ -1,14 +1,14 @@
 {
   "name": "SYMBIOSIS",
   "short_name": "SYMBIOSIS",
-  "start_url": "/symbiosisnovel/",
-  "scope": "/symbiosisnovel/",
+  "start_url": "/symbiosis_actions/",
+  "scope": "/symbiosis_actions/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/symbiosisnovel/favicon.svg",
+      "src": "/symbiosis_actions/favicon.svg",
       "sizes": "512x512"
     }
   ]
