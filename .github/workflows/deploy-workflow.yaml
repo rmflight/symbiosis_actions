@@ -21,7 +21,9 @@ jobs:
         run: hugo
 
       - name: List
-        run: ls -Rl docs/
+        run: |
+          ls -Rl docs/
+          ls -Rl themes/
 
       - name: Commit files
         run: |
