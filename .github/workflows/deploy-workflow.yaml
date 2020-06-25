@@ -11,6 +11,9 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.73.0"
+      
+      - name: Clean docs
+        run: rm -rf docs/
 
       - name: Build
         # remove --minify tag if you do not need it
