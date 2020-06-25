@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://rmflight.github.io/symbiosisnovel/'
+baseURL = 'https://rmflight.github.io/symbiosis_actions/'
 title = 'SYMBIOSIS'
 theme = 'hugo-book'
 publishDir = 'docs'
